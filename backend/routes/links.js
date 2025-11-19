@@ -1,5 +1,5 @@
 import express from "express";
-import { createLink, listLinks, getLink, deleteLink } from "../../../LiliFy URL Shortner/controllers/linkController.js";
+import { createLink, listLinks, getLink, deleteLink } from "../controllers/linkController.js";
 
 const router = express.Router();
 
