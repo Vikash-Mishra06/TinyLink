@@ -51,7 +51,7 @@ export default function Dashboard() {
       setNewAlias("");
       fetchLinks();
     } catch {
-      alert("Failed to create link. Alias might be taken.");
+      alert("Failed to create link. Custom code might be taken.");
     } finally {
       setCreating(false);
     }
